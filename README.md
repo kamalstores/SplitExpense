@@ -1,4 +1,4 @@
-#  SplitwisePro
+#  SplitExpense
 
 > **Smart expense sharing for groups, powered by AI.**
 > Effortlessly track bills, split costs, and settle debts with an optimized algorithm that minimizes the number of transactions.
@@ -46,8 +46,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/splitwisepro.git](https://github.com/your-username/splitwisepro.git)
-cd splitwisepro
+git clone [https://github.com/your-username/SplitExpense.git](https://github.com/your-username/SplitExpense.git)
+cd SplitExpense
 ```
 2. Backend Setup
 Navigate to the backend folder and install dependencies:
