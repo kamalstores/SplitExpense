@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
 const sendExpenseNotification = async (toEmail, payerName, amount, description) => {
   try {
     const mailOptions = {
-      from: '"Splitwise Pro" <malikvedansh0003@gmail.com>', // Sender address
+      from: '"Splitwise" <kamal@gmail.com>', // Sender address
       to: toEmail,
       subject: `New Expense Added: ${description}`,
       html: `
@@ -26,7 +26,7 @@ const sendExpenseNotification = async (toEmail, payerName, amount, description) 
         <div style="padding: 40px 30px; text-align: center;">
           
           <div style="display: inline-block; padding: 12px; background-color: rgba(234, 88, 12, 0.1); border-radius: 12px; margin-bottom: 24px;">
-            <span style="color: #EA580C; font-weight: 800; font-size: 24px; letter-spacing: -1px;">SplitwisePro</span>
+            <span style="color: #EA580C; font-weight: 800; font-size: 24px; letter-spacing: -1px;">SplitExpense</span>
           </div>
     
           <h2 style="margin: 0 0 10px 0; color: #FFFFFF; font-size: 24px; font-weight: 700;">New Expense Added</h2>
@@ -56,14 +56,14 @@ const sendExpenseNotification = async (toEmail, payerName, amount, description) 
           </a>
           
           <p style="margin-top: 30px; font-size: 14px; color: #525252;">
-            Track your shared expenses instantly on SplitwisePro.
+            Track your shared expenses instantly on SplitExpense.
           </p>
     
         </div>
       </div>
       
       <div style="text-align: center; margin-top: 30px; color: #525252; font-size: 12px;">
-        <p>&copy; 2024 SplitwisePro. All rights reserved.</p>
+        <p>&copy; 2024 SplitExpense. All rights reserved.</p>
       </div>
     
     </div>

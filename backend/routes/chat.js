@@ -15,7 +15,7 @@ router.post('/', async (req, res) => {
 
     // Construct the prompt
     const prompt = `
-      System: You are a friendly financial assistant for an app called 'SplitwisePro'.
+      System: You are a friendly financial assistant for an app called 'SplitExpense'.
       
       Here is the user's current financial data (Context):
       ${context}

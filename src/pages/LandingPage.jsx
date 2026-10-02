@@ -9,7 +9,7 @@ const LandingPage = () => {
       <nav className="navbar-glass">
         <div className="nav-logo-container">
           <div className="nav-logo-icon"><Zap size={20} /></div>
-          <span className="nav-logo-text">SplitwisePro</span>
+          <span className="nav-logo-text">SplitExpense</span>
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
           <Link to="/login" className="nav-btn-glass" style={{ border: 'none' }}>Login</Link>

@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* Using strokeWidth 2.5 for a bolder look */}
           <Receipt size={22} strokeWidth={2.5} />
         </div>
-        <span className="nav-logo-text">SplitwisePro</span>
+        <span className="nav-logo-text">SplitExpense</span>
       </Link>
 
       {/* Logout Button */}
