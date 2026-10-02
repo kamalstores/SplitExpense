@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://splitwise-5krm.onrender.com/api',
+  baseURL: 'http://localhost:5000/api',
 });
 
 // Automatically add token to every request if it exists
